@@ -30,31 +30,6 @@
 
 <script src="https://widget.prefinery.com/widget/v2/b8m54al0.js" async defer></script>
     
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="/js/json.js"></script>
- 
-
-    <script>
-        fetch('https://ewt.tailpath.com/stats.php')
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                appendData(data);
-            })
-            .catch(function (err) {
-                console.log('error: ' + err);
-            });
-        function appendData(data) {
-            var mainContainer = document.getElementById("myData");
-            for (var i = 0; i < data.length; i++) {
-                var div = document.createElement("div");
-                div.innerHTML = ' ' + data[i].d + ' ' + data[i].s;
-                mainContainer.appendChild(div);
-            }
-        }
-    </script>
 </head>
 
 <body>
@@ -150,9 +125,10 @@
                                             <h4>How It Works</h4>
                                             <div class="text mb-30">
                                                 <p>Get the app, scan the QR code and leave a mark on a map that matters.</p>
-                                                    <div id="myData"></div>
-                                                    <div id="text2"></div>
-
+<iframe
+  frameborder="0" style="border:0"
+  src="https://ewt.tailpath.com/stats.html">
+</iframe>
                                                 <p>
                                             <li><a target="appstore" href='https://apps.apple.com/app/tailpath/id1485476665'><img width=110 alt='Download on the App Store' src='images/badge-download-on-the-app-store.png'></a>&nbsp;<a target="gplay" href='https://play.google.com/store/apps/details?id=com.tailpath.tailpath'><img width=140 alt='Get it on Google Play' src='images/google-play-badge.png'></a></li>
                                             </p>
