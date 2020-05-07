@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tailpath
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tailpath.com
+  * I am tailpath (https://keybase.io/tailpath) on keybase.
+  * I have a public key ASCVucmUPMrDkdQDOeJm2z71Ec72J9i5mPjINXIh_UNMTAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e69ca7d5a62b490df18f05ea7d6134530e7ca8626a96c2f55dd85cea3b2b33760a",
+      "host": "keybase.io",
+      "kid": "012095b9c9943ccac391d40339e266db3ef511cef627d8b998f8c8357221fd434c4c0a",
+      "uid": "2484f76f521ce0ff7e2f09105943fc19",
+      "username": "tailpath"
+    },
+    "merkle_root": {
+      "ctime": 1588855175,
+      "hash": "2ae8b9418098e841c785856411d7f44d138a5c82f8289980eeebc13720af47ed381fd41008c69bdf519f92e8e309e06d75dcd815bee26b373b9da6e17b24f49e",
+      "hash_meta": "3f8c0b3fb0810e8a941a659b647e69a01c95e1b008172220485dd0b7fdca3568",
+      "seqno": 16190515
+    },
+    "service": {
+      "entropy": "PbUkBJDBPkw5HKy+ZPrRKOv5",
+      "hostname": "tailpath.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1588855224,
+  "expire_in": 504576000,
+  "prev": "75b41d2e7c9ef97b06ad65d93dc9ba32c9303284d5f53708cbd1229144432383",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEglbnJlDzKw5HUAzniZts+9RHO9ifYuZj4yDVyIf1DTEwKp3BheWxvYWTESpcCDMQgdbQdLnye+XsGrWXZPcm6MskwMoTV9TcIy9EikURDI4PEILcbTH5P2gScayROap5gKRmAlWuBt3q1xwUEKUsEozylAgHCo3NpZ8RASIV07+IrAXZoUNpDAQKgTnSC3Jvs1ecwShIrMfwgP73j5QB2SZPll0iofNVs1jwKmBITKL2K/2/weAU6CaI6DKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINnI0SBBBD5zEjfTVcwovYF3tQjsi91l0Q56yaOa1XuZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tailpath
+
+==================================================================
